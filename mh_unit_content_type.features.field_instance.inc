@@ -1239,7 +1239,7 @@ function mh_unit_content_type_field_default_field_instances() {
     'bundle' => 'mh_unit',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'The lot number of the home.',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -2240,6 +2240,7 @@ function mh_unit_content_type_field_default_field_instances() {
   t('Round up to the nearest foot.');
   t('Shed');
   t('System amperage');
+  t('The lot number of the home.');
   t('Transportable');
   t('VIN');
   t('Which side of home');
