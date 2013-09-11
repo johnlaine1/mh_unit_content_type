@@ -1377,7 +1377,7 @@ function mh_unit_content_type_field_default_field_instances() {
     'bundle' => 'mh_unit',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'The name of the MH Community where the home is currently located.',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -2241,6 +2241,7 @@ function mh_unit_content_type_field_default_field_instances() {
   t('Shed');
   t('System amperage');
   t('The lot number of the home.');
+  t('The name of the MH Community where the home is currently located.');
   t('Transportable');
   t('VIN');
   t('Which side of home');
